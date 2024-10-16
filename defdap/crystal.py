@@ -44,6 +44,7 @@ class Phase(object):
         try:
             self.crystalStructure = {
                 9: crystalStructures['hexagonal'],
+                10: crystalStructures['cubic'],
                 11: crystalStructures['cubic'],
             }[laueGroup]
         except KeyError:
